@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{/*Preguntar porque se escribe html y no*/
+    scroll-behavior: smooth;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    background: wheat;
+   
+}
+header {
+    background-image: linear-gradient(120deg, rgb(246, 212, 101 , 0.5) 0%, rgb(253, 160, 133, 0.5) 100%)/*,url(../img/logo.jpg)*/;
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+header .head{
+    text-align: center;
+
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+    padding:30px;
+}
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+/*-------------------Menu-------------------*/
+.menu-navegacion{
+    
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+
+}
+.menu-navegacion a{
+text-decoration: none;
+color: white;
+}
+.contenedor-historia{
+    background: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    padding:30px;
+
+}
+h2{
+font-size: 30px;
+text-align: center;
+margin-bottom: 15px;
+}
+p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+/*------------------------------------Galeria------------------------------------*/
+.contenedor-galeria{
+    background-color:rgb(216, 213, 213);
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria{
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+   /* cursor: pointer;*/
+}
+/*----------------------------------competencia----------------------------------*/
+.contenedor-competencia{
+    background: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    padding:30px;
+
+}
+
+.mas-info{
+    border: solid 1px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.mas-info a{
+    text-decoration: none;
+    color: white;
+}
+/*------------------------------------footer------------------------------------*/
+.contenedor-footer{
+    margin-top: 15px;
+    background-image: linear-gradient(120deg, rgb(246, 212, 101 , 1) 0%, rgb(253, 160, 133, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    
+}
+.nombre-footer{
+    font-size: 25px;
+}
+.iconos-social{
+    display: inline-block;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.iconos-social:hover{
+    background: white;    
+}
+.linea{
+    background: white;
+    height: 3px;
+    width: 100%;
+}
+.derechos{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    background: #000;
+    color: white;
+}
+/*competencia*/
+.contenedor-tules{
+    background: lightgray;
+    width: 80%;
+    margin:auto;
+}
+
+.desc{
+    margin: auto;
+    width: 90%;
+    font-style: oblique;
+}
+table{
+    margin: auto;
+    width: 80%;
+}
+td{
+    border: solid 1px;;
+    text-align: center;
+
+}
+.encabezado-tabla{
+    font-size: 20px;
+    font-style: italic;
+    background: black;
+    color: white;
+}
+/*--------------------Formulario--------------------*/
+.form {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .form .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .contacto-pag{
+      background-image: url(../img/2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: -10px;
+  }
